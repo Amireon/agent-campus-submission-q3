@@ -2,7 +2,7 @@
 
 - 题目：**3 — 企业知识问答 Agent**。
 - 基座模型：DeepSeek Flash，API 模型名 `deepseek-flash`。
-- 项目根目录：本目录（`q3/` 的内容作为独立仓库根）。
+- 项目根目录：仓库根目录（本仓库即第 3 题独立项目）。
 - GitHub URL：https://github.com/Amireon/agent-campus-submission-q3
 - 最终 commit SHA：见 `git rev-parse HEAD` 或 tag `submission-v1`；提交表单中填写该 SHA。
 - 仓库可见性：公开；如改为私有，需让指定评审账号可读。
