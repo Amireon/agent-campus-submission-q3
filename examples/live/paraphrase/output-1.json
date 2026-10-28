@@ -1,0 +1,43 @@
+{
+  "question_id": "demo-paraphrase-001",
+  "question": "我工作三年了能休几天？",
+  "history_used": false,
+  "run_status": "answered",
+  "answer": "按《员工年假制度》（v2，2026-01-01 生效，适用全体员工）：入职满 3 年享有 10 天年假。若你已满 3 年但未满 5 年，年假为 10 天；满 5 年后为 15 天。另外，年假需提前 3 个工作日在系统中申请。",
+  "citations": [
+    {
+      "doc_id": "D03",
+      "section_id": "D03-S1",
+      "quote": "员工入职满 1 年享有 5 天年假；满 3 年享有 10 天年假；满 5 年享有 15 天年假。",
+      "title": "员工年假制度",
+      "version": "v2",
+      "effective_date": "2026-01-01",
+      "scope": "全体员工"
+    },
+    {
+      "doc_id": "D03",
+      "section_id": "D03-S2",
+      "quote": "年假需提前 3 个工作日在系统中申请。",
+      "title": "员工年假制度",
+      "version": "v2",
+      "effective_date": "2026-01-01",
+      "scope": "全体员工"
+    }
+  ],
+  "gaps": [],
+  "clarification_question": "",
+  "mode": "live",
+  "model": "deepseek-flash",
+  "started_at": "2026-10-28T14:49:59+08:00",
+  "finished_at": "2026-10-28T14:50:03+08:00",
+  "elapsed_seconds": 3.17,
+  "steps": 3,
+  "tool_calls": 3,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": null,
+  "conflict_signals": []
+}

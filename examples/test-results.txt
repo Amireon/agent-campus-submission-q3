@@ -1,0 +1,34 @@
+test_all_offline_acceptance_cases (test_agent.AgentTests.test_all_offline_acceptance_cases) ... ok
+test_answered_requires_citation (test_agent.AgentTests.test_answered_requires_citation) ... ok
+test_citation_requires_read (test_agent.AgentTests.test_citation_requires_read) ... ok
+test_cli_ask_and_trace (test_agent.AgentTests.test_cli_ask_and_trace) ... ok
+test_cli_failure_exit_code (test_agent.AgentTests.test_cli_failure_exit_code) ... ok
+test_conflict_requires_two_documents (test_agent.AgentTests.test_conflict_requires_two_documents) ... ok
+test_demo_requires_empty_output_dir (test_agent.AgentTests.test_demo_requires_empty_output_dir) ... ok
+test_effective_date_numbers_are_allowed (test_agent.AgentTests.test_effective_date_numbers_are_allowed) ... ok
+test_followup_uses_history_query (test_agent.AgentTests.test_followup_uses_history_query) ... ok
+test_invalid_input_rejected (test_agent.AgentTests.test_invalid_input_rejected) ... ok
+test_model_failure_does_not_fallback_to_mock (test_agent.AgentTests.test_model_failure_does_not_fallback_to_mock) ... ok
+test_not_found_requires_gaps (test_agent.AgentTests.test_not_found_requires_gaps) ... ok
+test_paraphrase_rewrites_query (test_agent.AgentTests.test_paraphrase_rewrites_query) ... ok
+test_quote_must_be_exact (test_agent.AgentTests.test_quote_must_be_exact) ... ok
+test_quote_whitespace_is_normalized (test_agent.AgentTests.test_quote_whitespace_is_normalized) ... ok
+test_scripted_model_recovers_from_conflict_guard (test_agent.AgentTests.test_scripted_model_recovers_from_conflict_guard) ... ok
+test_scripted_model_recovers_from_rejected_citation (test_agent.AgentTests.test_scripted_model_recovers_from_rejected_citation) ... ok
+test_search_no_false_positive (test_agent.AgentTests.test_search_no_false_positive) ... ok
+test_search_prefers_active_and_detects_conflict (test_agent.AgentTests.test_search_prefers_active_and_detects_conflict) ... ok
+test_step_limit_returns_incomplete (test_agent.AgentTests.test_step_limit_returns_incomplete) ... ok
+test_superseded_document_cannot_be_cited (test_agent.AgentTests.test_superseded_document_cannot_be_cited) ... ok
+test_unresolved_conflict_guard_and_correction (test_agent.AgentTests.test_unresolved_conflict_guard_and_correction) ... ok
+test_unsupported_number_rejected (test_agent.AgentTests.test_unsupported_number_rejected) ... ok
+test_deepseek_native_tool_protocol (test_agent.ModelAdapterTests.test_deepseek_native_tool_protocol) ... ok
+test_env_loader_accepts_assignments_and_literal_key (test_agent.ModelAdapterTests.test_env_loader_accepts_assignments_and_literal_key) ... ok
+test_http_error_does_not_expose_provider_body (test_agent.ModelAdapterTests.test_http_error_does_not_expose_provider_body) ... ok
+test_malformed_provider_shapes (test_agent.ModelAdapterTests.test_malformed_provider_shapes) ... ok
+test_missing_key_has_no_silent_mock_fallback (test_agent.ModelAdapterTests.test_missing_key_has_no_silent_mock_fallback) ... ok
+test_multiple_calls_rejected (test_agent.ModelAdapterTests.test_multiple_calls_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.027s
+
+OK

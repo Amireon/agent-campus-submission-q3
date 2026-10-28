@@ -1,0 +1,46 @@
+{
+  "question_id": "demo-version-001",
+  "question": "产品退款期限是多久？",
+  "history_used": false,
+  "run_status": "answered",
+  "answer": "根据现行《产品退款政策》（v2，客户成功部，2026-01-01 生效，适用于全体客户）：客户可在购买后 15 天内申请无理由退款；退款将在审核通过后 3 个工作日内原路退回。\n\n另需说明：检索中还发现一份旧版《产品退款政策》（v1），其退款时限与现行版本不同，但该文档状态为 superseded（已被替代），不能作为依据，请以现行 v2 的 15 天为准。",
+  "citations": [
+    {
+      "doc_id": "D08",
+      "section_id": "D08-S1",
+      "quote": "客户可在购买后 15 天内申请无理由退款。",
+      "title": "产品退款政策",
+      "version": "v2",
+      "effective_date": "2026-01-01",
+      "scope": "全体客户"
+    },
+    {
+      "doc_id": "D08",
+      "section_id": "D08-S2",
+      "quote": "退款将在审核通过后 3 个工作日内原路退回。",
+      "title": "产品退款政策",
+      "version": "v2",
+      "effective_date": "2026-01-01",
+      "scope": "全体客户"
+    }
+  ],
+  "gaps": [],
+  "clarification_question": "",
+  "mode": "live",
+  "model": "deepseek-flash",
+  "started_at": "2026-10-28T14:50:13+08:00",
+  "finished_at": "2026-10-28T14:50:17+08:00",
+  "elapsed_seconds": 4.639,
+  "steps": 4,
+  "tool_calls": 4,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": {
+    "code": "UNSUPPORTED_NUMBER",
+    "message": "答案中的数字 ['2025', '7'] 未被引用原文或文档元数据支持"
+  },
+  "conflict_signals": []
+}

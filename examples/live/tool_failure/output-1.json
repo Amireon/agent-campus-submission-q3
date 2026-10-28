@@ -1,0 +1,29 @@
+{
+  "question_id": "demo-tool_failure-001",
+  "question": "年假有多少天？",
+  "history_used": false,
+  "run_status": "failed",
+  "answer": "抱歉，检索服务当前不可用（返回 SEARCH_UNAVAILABLE），我重试一次后仍然失败，因此无法检索到年休假相关制度文档，也就无法给出年假天数的准确答案。请稍后重试，或直接告知我相关制度文档的名称/编号，我再为你查阅。",
+  "citations": [],
+  "gaps": [
+    "检索服务连续两次返回 SEARCH_UNAVAILABLE，未能获取任何年休假制度文档，无法确认年假天数。"
+  ],
+  "clarification_question": "",
+  "mode": "live",
+  "model": "deepseek-flash",
+  "started_at": "2026-10-28T14:50:06+08:00",
+  "finished_at": "2026-10-28T14:50:09+08:00",
+  "elapsed_seconds": 3.383,
+  "steps": 3,
+  "tool_calls": 3,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": {
+    "code": "SEARCH_UNAVAILABLE",
+    "message": "检索服务暂时不可用；可重试一次或说明失败"
+  },
+  "conflict_signals": []
+}

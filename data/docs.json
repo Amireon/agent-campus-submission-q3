@@ -1,0 +1,155 @@
+{
+  "D01": {
+    "title": "差旅报销管理办法",
+    "version": "v3",
+    "effective_date": "2026-06-01",
+    "status": "active",
+    "scope": "集团总部及直属部门",
+    "department": "财务部",
+    "tags": ["差旅", "报销", "期限", "费用", "总部"],
+    "sections": [
+      {"id": "D01-S1", "heading": "适用范围", "text": "本办法适用于集团总部及直属部门全体员工的差旅费用报销。"},
+      {"id": "D01-S2", "heading": "报销时限", "text": "员工应在费用发生后 30 天内提交报销申请，逾期需部门负责人书面说明。"},
+      {"id": "D01-S3", "heading": "审批权限", "text": "单笔超过 5000 元的差旅报销需财务总监审批。"}
+    ]
+  },
+  "D02": {
+    "title": "子公司费用报销细则",
+    "version": "v2",
+    "effective_date": "2026-05-15",
+    "status": "active",
+    "scope": "华东子公司",
+    "department": "财务部",
+    "tags": ["报销", "期限", "费用", "子公司"],
+    "sections": [
+      {"id": "D02-S1", "heading": "适用范围", "text": "本细则适用于华东子公司全体员工的费用报销。"},
+      {"id": "D02-S2", "heading": "报销时限", "text": "员工应在费用发生后 15 天内提交报销申请。"},
+      {"id": "D02-S3", "heading": "审批权限", "text": "单笔超过 3000 元的报销需子公司总经理审批。"}
+    ]
+  },
+  "D03": {
+    "title": "员工年假制度",
+    "version": "v2",
+    "effective_date": "2026-01-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "人力资源部",
+    "tags": ["年假", "休假", "入职", "天数"],
+    "sections": [
+      {"id": "D03-S1", "heading": "年假天数", "text": "员工入职满 1 年享有 5 天年假；满 3 年享有 10 天年假；满 5 年享有 15 天年假。"},
+      {"id": "D03-S2", "heading": "申请方式", "text": "年假需提前 3 个工作日在系统中申请。"}
+    ]
+  },
+  "D04": {
+    "title": "信息安全规范",
+    "version": "v1",
+    "effective_date": "2026-02-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "信息安全部",
+    "tags": ["信息安全", "数据", "客户", "网盘"],
+    "sections": [
+      {"id": "D04-S1", "heading": "数据外发", "text": "禁止将客户数据上传至个人网盘或未经批准的外部系统。"},
+      {"id": "D04-S2", "heading": "密码要求", "text": "办公账号密码长度不得少于 12 位。"}
+    ]
+  },
+  "D05": {
+    "title": "采购审批流程",
+    "version": "v2",
+    "effective_date": "2026-03-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "采购部",
+    "tags": ["采购", "审批", "金额"],
+    "sections": [
+      {"id": "D05-S1", "heading": "审批权限", "text": "单笔 5 万元以下的采购由部门负责人审批；单笔 5 万元以上的采购需财务总监审批。"}
+    ]
+  },
+  "D06": {
+    "title": "远程办公规定",
+    "version": "v1",
+    "effective_date": "2026-04-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "人力资源部",
+    "tags": ["远程办公", "居家", "申请"],
+    "sections": [
+      {"id": "D06-S1", "heading": "申请频次", "text": "员工每周远程办公不超过 2 天，需提前 1 天在系统申请。"}
+    ]
+  },
+  "D07": {
+    "title": "产品退款政策",
+    "version": "v1",
+    "effective_date": "2025-01-01",
+    "status": "superseded",
+    "scope": "全体客户",
+    "department": "客户成功部",
+    "tags": ["退款", "产品", "期限"],
+    "sections": [
+      {"id": "D07-S1", "heading": "退款时限", "text": "客户可在购买后 7 天内申请无理由退款。"}
+    ]
+  },
+  "D08": {
+    "title": "产品退款政策",
+    "version": "v2",
+    "effective_date": "2026-01-01",
+    "status": "active",
+    "scope": "全体客户",
+    "department": "客户成功部",
+    "tags": ["退款", "产品", "期限"],
+    "sections": [
+      {"id": "D08-S1", "heading": "退款时限", "text": "客户可在购买后 15 天内申请无理由退款。"},
+      {"id": "D08-S2", "heading": "到账时间", "text": "退款将在审核通过后 3 个工作日内原路退回。"}
+    ]
+  },
+  "D09": {
+    "title": "报销补充说明（草稿）",
+    "version": "v0.1",
+    "effective_date": "2026-11-01",
+    "status": "draft",
+    "scope": "全体员工",
+    "department": "财务部",
+    "tags": ["报销", "期限", "草稿"],
+    "sections": [
+      {"id": "D09-S1", "heading": "报销时限", "text": "报销期限拟调整为 60 天，尚未生效。"}
+    ]
+  },
+  "D10": {
+    "title": "加班餐补与交通费",
+    "version": "v2",
+    "effective_date": "2026-05-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "行政部",
+    "tags": ["加班", "餐补", "打车", "交通", "夜间"],
+    "sections": [
+      {"id": "D10-S1", "heading": "餐补", "text": "加班至 20:00 后，每人每餐补贴 30 元。"},
+      {"id": "D10-S2", "heading": "交通费", "text": "加班至 22:00 后，可报销打车费用，单次不超过 80 元。"},
+      {"id": "D10-S3", "heading": "申请方式", "text": "餐补和交通费随当月报销一并提交。"}
+    ]
+  },
+  "D11": {
+    "title": "员工出差住宿标准",
+    "version": "v1",
+    "effective_date": "2026-01-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "财务部",
+    "tags": ["出差", "住宿", "标准", "城市"],
+    "sections": [
+      {"id": "D11-S1", "heading": "住宿标准", "text": "一线城市每晚不超过 600 元，其他城市每晚不超过 400 元。"}
+    ]
+  },
+  "D12": {
+    "title": "会议室预订规则",
+    "version": "v1",
+    "effective_date": "2026-02-01",
+    "status": "active",
+    "scope": "全体员工",
+    "department": "行政部",
+    "tags": ["会议室", "预订"],
+    "sections": [
+      {"id": "D12-S1", "heading": "预订规则", "text": "会议室需提前 2 小时在系统中预订，单次不超过 4 小时。"}
+    ]
+  }
+}

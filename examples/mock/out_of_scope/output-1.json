@@ -1,0 +1,26 @@
+{
+  "question_id": "demo-out_of_scope-001",
+  "question": "公司今年的营业收入是多少？",
+  "history_used": false,
+  "run_status": "not_found",
+  "answer": "现有合成资料中没有找到与该问题相关的制度或 FAQ，无法给出有依据的答复。",
+  "citations": [],
+  "gaps": [
+    "未检索到与问题相关的现行制度或 FAQ"
+  ],
+  "clarification_question": "",
+  "mode": "mock",
+  "model": "offline-observation-mock",
+  "started_at": "2026-10-28T14:49:43+08:00",
+  "finished_at": "2026-10-28T14:49:43+08:00",
+  "elapsed_seconds": 0.001,
+  "steps": 4,
+  "tool_calls": 4,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": null,
+  "conflict_signals": []
+}

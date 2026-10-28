@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "mode": "live",
+  "case_count": 9,
+  "cases": [
+    {
+      "case": "answer",
+      "passed": true,
+      "status": "answered",
+      "steps": 3,
+      "mode": "live"
+    },
+    {
+      "case": "conflict",
+      "passed": true,
+      "status": "needs_clarification",
+      "steps": 5,
+      "mode": "live"
+    },
+    {
+      "case": "out_of_scope",
+      "passed": true,
+      "status": "not_found",
+      "steps": 4,
+      "mode": "live"
+    },
+    {
+      "case": "paraphrase",
+      "passed": true,
+      "status": "answered",
+      "steps": 3,
+      "mode": "live"
+    },
+    {
+      "case": "followup",
+      "passed": true,
+      "status": "answered",
+      "steps": 3,
+      "mode": "live"
+    },
+    {
+      "case": "tool_failure",
+      "passed": true,
+      "status": "failed",
+      "steps": 3,
+      "mode": "live"
+    },
+    {
+      "case": "tool_recovery",
+      "passed": true,
+      "status": "answered",
+      "steps": 4,
+      "mode": "live"
+    },
+    {
+      "case": "version",
+      "passed": true,
+      "status": "answered",
+      "steps": 4,
+      "mode": "live"
+    },
+    {
+      "case": "step_limit",
+      "passed": true,
+      "status": "incomplete",
+      "steps": 2,
+      "mode": "live"
+    }
+  ],
+  "output_dir": "examples/live",
+  "boundary": "实际 DeepSeek 工具调用；文档、工具和检索均为本地合成场景"
+}

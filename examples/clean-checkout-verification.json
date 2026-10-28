@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-28T14:52:28+08:00",
+  "no_env_file": true,
+  "python": "3.14.6",
+  "tests_exit": 0,
+  "tests_tail": [
+    "----------------------------------------------------------------------",
+    "Ran 29 tests in 0.028s",
+    "",
+    "OK"
+  ],
+  "demo_exit": 0,
+  "demo_passed": true,
+  "demo_cases": 9,
+  "demo_boundary": "Mock 仅验证流程，不证明真实模型决策效果",
+  "note": "在临时目录复制项目并排除 .env、.git、runtime 后执行；用于证明离线可复现，未调用真实模型。"
+}

@@ -1,0 +1,58 @@
+{
+  "question_id": "demo-conflict-001",
+  "question": "报销期限是多久？",
+  "history_used": false,
+  "run_status": "needs_clarification",
+  "answer": "检索到多份现行制度对同一事项规定不一致：D01 规定 30天；D02 规定 15天。请确认适用哪一份制度。",
+  "citations": [
+    {
+      "doc_id": "D01",
+      "section_id": "D01-S2",
+      "quote": "员工应在费用发生后 30 天内提交报销申请，逾期需部门负责人书面说明。",
+      "title": "差旅报销管理办法",
+      "version": "v3",
+      "effective_date": "2026-06-01",
+      "scope": "集团总部及直属部门"
+    },
+    {
+      "doc_id": "D02",
+      "section_id": "D02-S2",
+      "quote": "员工应在费用发生后 15 天内提交报销申请。",
+      "title": "子公司费用报销细则",
+      "version": "v2",
+      "effective_date": "2026-05-15",
+      "scope": "华东子公司"
+    }
+  ],
+  "gaps": [],
+  "clarification_question": "请确认适用制度：集团总部及直属部门，还是华东子公司？",
+  "mode": "mock",
+  "model": "offline-observation-mock",
+  "started_at": "2026-10-28T14:49:43+08:00",
+  "finished_at": "2026-10-28T14:49:43+08:00",
+  "elapsed_seconds": 0.001,
+  "steps": 4,
+  "tool_calls": 4,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": null,
+  "conflict_signals": [
+    {
+      "topic": "报销时限",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "topic": "审批权限",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    }
+  ]
+}

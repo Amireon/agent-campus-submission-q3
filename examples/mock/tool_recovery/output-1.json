@@ -1,0 +1,37 @@
+{
+  "question_id": "demo-tool_recovery-001",
+  "question": "年假有多少天？",
+  "history_used": false,
+  "run_status": "answered",
+  "answer": "依据 D03《员工年假制度》v2：员工入职满 1 年享有 5 天年假；满 3 年享有 10 天年假；满 5 年享有 15 天年假。",
+  "citations": [
+    {
+      "doc_id": "D03",
+      "section_id": "D03-S1",
+      "quote": "员工入职满 1 年享有 5 天年假；满 3 年享有 10 天年假；满 5 年享有 15 天年假。",
+      "title": "员工年假制度",
+      "version": "v2",
+      "effective_date": "2026-01-01",
+      "scope": "全体员工"
+    }
+  ],
+  "gaps": [],
+  "clarification_question": "",
+  "mode": "mock",
+  "model": "offline-observation-mock",
+  "started_at": "2026-10-28T14:49:43+08:00",
+  "finished_at": "2026-10-28T14:49:43+08:00",
+  "elapsed_seconds": 0.0,
+  "steps": 4,
+  "tool_calls": 4,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": {
+    "code": "SEARCH_UNAVAILABLE",
+    "message": "检索服务暂时不可用；可重试一次或说明失败"
+  },
+  "conflict_signals": []
+}

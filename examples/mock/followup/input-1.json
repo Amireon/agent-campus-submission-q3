@@ -1,0 +1,14 @@
+{
+  "question_id": "demo-followup-001",
+  "question": "那上限是多少？",
+  "history": [
+    {
+      "role": "user",
+      "content": "加班到晚上十点以后，打车费能报吗？"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，依据《加班餐补与交通费》报销。"
+    }
+  ]
+}

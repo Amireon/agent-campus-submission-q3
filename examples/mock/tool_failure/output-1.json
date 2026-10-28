@@ -1,0 +1,29 @@
+{
+  "question_id": "demo-tool_failure-001",
+  "question": "年假有多少天？",
+  "history_used": false,
+  "run_status": "failed",
+  "answer": "检索工具持续不可用，无法给出有依据的答案。",
+  "citations": [],
+  "gaps": [
+    "检索服务不可用"
+  ],
+  "clarification_question": "",
+  "mode": "mock",
+  "model": "offline-observation-mock",
+  "started_at": "2026-10-28T14:49:43+08:00",
+  "finished_at": "2026-10-28T14:49:43+08:00",
+  "elapsed_seconds": 0.0,
+  "steps": 3,
+  "tool_calls": 3,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": {
+    "code": "SEARCH_UNAVAILABLE",
+    "message": "检索服务暂时不可用；可重试一次或说明失败"
+  },
+  "conflict_signals": []
+}

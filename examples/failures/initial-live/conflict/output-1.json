@@ -1,0 +1,39 @@
+{
+  "question_id": "demo-conflict-001",
+  "question": "报销期限是多久？",
+  "history_used": false,
+  "run_status": "incomplete",
+  "answer": "达到执行步数或工具调用上限，任务未完成；没有给出未经核实的答案。",
+  "citations": [],
+  "gaps": [],
+  "clarification_question": "",
+  "mode": "live",
+  "model": "deepseek-flash",
+  "started_at": "2026-10-28T14:47:11+08:00",
+  "finished_at": "2026-10-28T14:47:13+08:00",
+  "elapsed_seconds": 1.937,
+  "steps": 2,
+  "tool_calls": 1,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": "model_error",
+  "last_error": null,
+  "conflict_signals": [
+    {
+      "topic": "报销时限",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "topic": "审批权限",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    }
+  ]
+}

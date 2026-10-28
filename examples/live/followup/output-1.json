@@ -1,0 +1,58 @@
+{
+  "question_id": "demo-followup-001",
+  "question": "那上限是多少？",
+  "history_used": true,
+  "run_status": "answered",
+  "answer": "加班至 22:00 后打车费可报销，单次上限为 80 元。依据《加班餐补与交通费》（行政部，v2，2026-05-01 生效，适用全体员工）。另外，餐补和交通费随当月报销一并提交。",
+  "citations": [
+    {
+      "doc_id": "D10",
+      "section_id": "D10-S2",
+      "quote": "加班至 22:00 后，可报销打车费用，单次不超过 80 元。",
+      "title": "加班餐补与交通费",
+      "version": "v2",
+      "effective_date": "2026-05-01",
+      "scope": "全体员工"
+    },
+    {
+      "doc_id": "D10",
+      "section_id": "D10-S3",
+      "quote": "餐补和交通费随当月报销一并提交。",
+      "title": "加班餐补与交通费",
+      "version": "v2",
+      "effective_date": "2026-05-01",
+      "scope": "全体员工"
+    }
+  ],
+  "gaps": [],
+  "clarification_question": "",
+  "mode": "live",
+  "model": "deepseek-flash",
+  "started_at": "2026-10-28T14:50:03+08:00",
+  "finished_at": "2026-10-28T14:50:06+08:00",
+  "elapsed_seconds": 3.173,
+  "steps": 3,
+  "tool_calls": 3,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": null,
+  "conflict_signals": [
+    {
+      "topic": "报销时限",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "topic": "审批权限",
+      "doc_ids": [
+        "D01",
+        "D02"
+      ]
+    }
+  ]
+}

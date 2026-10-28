@@ -1,0 +1,27 @@
+{
+  "question_id": "demo-out_of_scope-001",
+  "question": "公司今年的营业收入是多少？",
+  "history_used": false,
+  "run_status": "not_found",
+  "answer": "知识库中没有可回答该问题的资料。我以“公司营业收入 年度财务数据”“财务报告 营收 经营业绩 披露”“年度经营目标 收入指标 公司业绩数据查询”等关键词检索了三次，均未找到任何财务报告、经营业绩或营收数据类文档（唯一命中的《信息安全规范》与财务数据无关）。因此无法提供公司今年的营业收入数字，也不会凭常识推测。",
+  "citations": [],
+  "gaps": [
+    "知识库中缺少公司财务/经营业绩类文档，无年度营业收入数据",
+    "未检索到任何财务报告、经营分析或业绩披露相关制度或FAQ"
+  ],
+  "clarification_question": "",
+  "mode": "live",
+  "model": "deepseek-flash",
+  "started_at": "2026-10-28T14:49:55+08:00",
+  "finished_at": "2026-10-28T14:49:59+08:00",
+  "elapsed_seconds": 4.407,
+  "steps": 4,
+  "tool_calls": 4,
+  "limits": {
+    "max_steps": 10,
+    "max_tool_calls": 8
+  },
+  "stop_reason": null,
+  "last_error": null,
+  "conflict_signals": []
+}

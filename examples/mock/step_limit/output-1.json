@@ -1,0 +1,24 @@
+{
+  "question_id": "demo-step_limit-001",
+  "question": "年假有多少天？",
+  "history_used": false,
+  "run_status": "incomplete",
+  "answer": "达到执行步数或工具调用上限，任务未完成；没有给出未经核实的答案。",
+  "citations": [],
+  "gaps": [],
+  "clarification_question": "",
+  "mode": "mock",
+  "model": "offline-observation-mock",
+  "started_at": "2026-10-28T14:49:43+08:00",
+  "finished_at": "2026-10-28T14:49:43+08:00",
+  "elapsed_seconds": 0.0,
+  "steps": 2,
+  "tool_calls": 2,
+  "limits": {
+    "max_steps": 2,
+    "max_tool_calls": 8
+  },
+  "stop_reason": "step_limit",
+  "last_error": null,
+  "conflict_signals": []
+}

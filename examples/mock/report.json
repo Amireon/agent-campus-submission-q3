@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "mode": "mock",
+  "case_count": 9,
+  "cases": [
+    {
+      "case": "answer",
+      "passed": true,
+      "status": "answered",
+      "steps": 3,
+      "mode": "mock"
+    },
+    {
+      "case": "conflict",
+      "passed": true,
+      "status": "needs_clarification",
+      "steps": 4,
+      "mode": "mock"
+    },
+    {
+      "case": "out_of_scope",
+      "passed": true,
+      "status": "not_found",
+      "steps": 4,
+      "mode": "mock"
+    },
+    {
+      "case": "paraphrase",
+      "passed": true,
+      "status": "answered",
+      "steps": 4,
+      "mode": "mock"
+    },
+    {
+      "case": "followup",
+      "passed": true,
+      "status": "answered",
+      "steps": 3,
+      "mode": "mock"
+    },
+    {
+      "case": "tool_failure",
+      "passed": true,
+      "status": "failed",
+      "steps": 3,
+      "mode": "mock"
+    },
+    {
+      "case": "tool_recovery",
+      "passed": true,
+      "status": "answered",
+      "steps": 4,
+      "mode": "mock"
+    },
+    {
+      "case": "version",
+      "passed": true,
+      "status": "answered",
+      "steps": 3,
+      "mode": "mock"
+    },
+    {
+      "case": "step_limit",
+      "passed": true,
+      "status": "incomplete",
+      "steps": 2,
+      "mode": "mock"
+    }
+  ],
+  "output_dir": "examples/mock",
+  "boundary": "Mock 仅验证流程，不证明真实模型决策效果"
+}

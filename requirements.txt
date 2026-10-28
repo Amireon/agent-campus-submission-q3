@@ -1,0 +1,2 @@
+# Runtime uses only Python >=3.11 standard library; no third-party packages.
+# Tests use unittest (also included in the standard library).
